@@ -1,0 +1,60 @@
+
+
+# Voice-Controlled Assistant
+
+## Overview
+
+This Python program is a simplified voice-controlled assistant that listens to voice input, recognizes spoken commands, and performs actions based on those commands. It uses the Google Web Speech API for speech recognition and can currently perform tasks like opening Notepad or the calculator.
+
+## Requirements
+
+- Python
+- PyTorch (for speech recognition)
+- SpeechRecognition library
+- Pyaudio (for microphone input)
+
+## Installation
+
+1. Clone or download this repository to your local machine.
+
+2. Install the required libraries using pip:
+
+   ```
+   pip install SpeechRecognition
+   pip install pyaudio
+   ```
+
+   Use `pip3` instead of `pip` if you're using Python 3.x.
+
+## Usage
+
+1. Open your terminal or command prompt.
+
+2. Navigate to the directory where the program files are located.
+
+3. Run the program using the following command:
+
+   ```
+   python voice_assistant.py
+   ```
+
+4. The program will start listening for your voice input. Speak a command, and it will try to recognize and execute it.
+
+## Available Commands
+
+- "Open Notepad" - Opens the Notepad application.
+- "Open Calculator" - Opens the Calculator application.
+- "Exit" - Exits the program.
+
+## Customization
+
+You can expand the program by adding more commands and actions in the `perform_action` function in the `voice_assistant.py` file. Feel free to customize it to suit your needs.
+
+## Disclaimer
+
+This is a basic and simplified implementation of a voice-controlled assistant for educational purposes. Building a fully functional voice assistant with natural language understanding and advanced capabilities is a complex task that requires more extensive development and resources.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
